@@ -12,5 +12,5 @@ body{
 }
 
 .form-container{
-    width: 60rem;
+    max-width: 60rem;
 }
