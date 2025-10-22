@@ -1,45 +1,50 @@
 <!-- your html code here -->
-<div class="container py-5">
-    <!-- Título -->
-    <h1 class="text-start mb-3">Contact</h1>
+<div class="container py-5 bg-white">
+  <!-- Título -->
+  <h1 class="text-start mb-3">Contact</h1>
 
-    <!-- Texto descriptivo -->
-    <p class="text-muted mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent eget tortor at quam porta tincidunt.
-        Integer vel quam in sem posuere elementum.
-        Curabitur ac mi non justo volutpat placerat.
-    </p>
+  <!-- Texto descriptivo -->
+  <p class="text-muted mb-4">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent eget tortor at quam porta tincidunt.
+    Integer vel quam in sem posuere elementum.
+    Curabitur ac mi non justo volutpat placerat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent eget tortor at quam porta tincidunt.
+    Integer vel quam in sem posuere elementum.
+    Curabitur ac mi non justo volutpat placerat.
+  </p>
 
-    <!-- Formulario -->
-    <form class="bg-white p-4 rounded shadow-sm">
-        <div class="row mb-3">
-            <div class="col-12">
-                <div class="d-flex align-items-start">
-                    <label for="email" class="form-label fw-semibold me-3 mb-0 col-form-label-sm">
-                        Your E-mail
-                    </label>
-                    <input type="email" id="email" class="form-control" placeholder="name@example.com" style="max-width: 45%;"/>
-                </div>
-            </div>
+  <!-- Formulario -->
+  <form class="bg-body-secondary p-2 rounded-1 container">
+    <div class="container">
+      <!-- E-mail -->
+      <div class="row mb-3d">
+        <div class="col-auto">
+          <label for="email" class="col-form-label fw-semibold">Your E-mail</label>
         </div>
-
-        <!-- Mensaje -->
-        <div class="row mb-3">
-            <div class="col-12 align-items-end">
-                <div class="d-flex align-items-start">
-                    <label for="message" class="form-label fw-semibold me-3 mb-0 col-form-label-sm">
-                        Your Message
-                    </label>
-                    <textarea id="message" class="form-control" rows="4"
-                        placeholder="Write your message here..." style="max-width: 45%;"></textarea>
-                </div>
-            </div>
+        <div class="col-6">
+          <input type="email" class="form-control" id="email" placeholder="Your email">
         </div>
+      </div>
 
-        <!-- Botón al final -->
-        <div class="d-flex justify-content-end">
-            <button type="submit" class="btn btn-primary px-4">Submit</button>
+      <!-- Mensaje -->
+      <div class="row mb-3">
+        <div class="col-auto">
+          <label for="message" class="col-form-label fw-semibold">Your message</label>
         </div>
-    </form>
+        <div class="col-6">
+          <textarea class="form-control" id="message" rows="4"
+            placeholder="Please enter your message here..."></textarea>
+        </div>
+      </div>
+
+      <!-- Botón -->
+      <div class="row">
+        <div class="col-6 text-end">
+          <button type="submit" class="btn btn-primary px-4">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
 </div>
