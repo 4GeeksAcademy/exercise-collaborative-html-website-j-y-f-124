@@ -10,3 +10,7 @@ body{
 .tagline-h1 {
     font-size: 100px;
 }
+
+.form-container{
+    width: 60rem;
+}
